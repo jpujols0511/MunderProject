@@ -13,3 +13,15 @@ h1{
 body{
   margin: 0;
 }
+
+.container-2{
+  background: #66BFBF;
+  height: 700px;
+}
+
+.content{
+  font-size: 36px;
+  position: relative;
+  text-align: center;
+  top: 216px;
+}
