@@ -1,11 +1,11 @@
 .container-1{
-  background-color: red;
+  background-color: black;
   background-size: 1381px 656px;
   margin: 0;
   height: 700px;
 }
 
-h1{
+h1, h2{
   margin: 0;
   color: #fff;
 }
@@ -23,5 +23,10 @@ body{
   font-size: 36px;
   position: relative;
   text-align: center;
-  top: 216px;
+  top: 113px;
+  color: #fff;
+}
+
+.top-img{
+  width: 10%;
 }
