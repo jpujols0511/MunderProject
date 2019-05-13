@@ -12,6 +12,7 @@ h1, h2{
 
 body{
   margin: 0;
+  font-family: sans-serif;
 }
 
 .container-2{
@@ -28,9 +29,27 @@ body{
 }
 
 .top-img{
-  width: 10%;
+  width: 7%;
 }
 
-.img-grid, div, img{
-  width: 40%;
+.container-3{
+color: black;
+height: 700px;
+}
+
+.header-3{
+  color: black;
+}
+
+.about-section{
+  text-align: center;
+}
+
+.top-navbar{
+  width: 85%;
+  background: blue;
+  height: 82px;
+  float: right;
+  margin: 10px;
+
 }
