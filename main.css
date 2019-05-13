@@ -1,8 +1,6 @@
-.container-1{
-  background-color: black;
-  background-size: 1381px 656px;
+body{
   margin: 0;
-  height: 700px;
+  font-family: sans-serif;
 }
 
 h1, h2{
@@ -10,9 +8,17 @@ h1, h2{
   color: #fff;
 }
 
-body{
+li{
+  display: inline-block;
+  padding: 24px 27px 5px 5px;
+  font-size: 24px;
+}
+
+.container-1{
+  background-color: black;
+  background-size: 1381px 656px;
   margin: 0;
-  font-family: sans-serif;
+  height: 700px;
 }
 
 .container-2{
@@ -47,9 +53,23 @@ height: 700px;
 
 .top-navbar{
   width: 85%;
-  background: blue;
+  background: grey;
   height: 82px;
   float: right;
   margin: 10px;
+  border-radius: 10px;
+}
 
+.top-form{
+  width: 20%;
+  float: right;
+  margin-top: 18  px;
+}
+
+.search-bar{
+  border: 2px solid black;
+  background-image: url('search.png');
+  background-position: 6px 7px;
+  background-repeat: no-repeat;
+  padding: 9px 7px 10px 31px;
 }
