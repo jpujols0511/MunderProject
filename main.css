@@ -30,3 +30,7 @@ body{
 .top-img{
   width: 10%;
 }
+
+.img-grid, div, img{
+  width: 40%;
+}
