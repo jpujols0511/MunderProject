@@ -1,6 +1,6 @@
 body{
   margin: 0;
-  font-family: sans-serif;
+  font-family: 'Sacramento', cursive;
 }
 
 h1, h2{
@@ -34,7 +34,7 @@ li{
 
 .main-button{
     padding: 14.1px;
-    bottom: 2px;
+    bottom: 3px;
     position: relative;
     right: 9px;
     border-radius: 5px;
@@ -89,7 +89,7 @@ height: 753px;
 
 }
 .bio-para{
-  width: 61%;
+  width: 63%;
   text-align: left;
   margin: auto;
   float: left;
@@ -106,6 +106,7 @@ height: 753px;
   background-image: url('background.jpg');
   margin: 126px;
   background-size: 800px 500px;
+  border-radius: 7px;
 
 }
 
@@ -137,7 +138,7 @@ height: 753px;
 .top-form{
   width: 27%;
   float: right;
-  margin-top: 18px;
+  margin-top: 23px;
 }
 
 .search-bar{
@@ -154,30 +155,42 @@ height: 753px;
   width: 88%;
 }
 
-li:hover {
-  text-decoration: underline;
-  color: #fff;
-}
 
 .content-2{
   font-size: 20px;
   text-align: center;
+  line-height: 1.5
 }
 
 .about-us{
   width: 50%;
   background-image: url('background.jpg');
   text-align: center;
-  padding: 23px;
+  padding: 18px;
   position: relative;
-  top: 100px;
-  left: 52px;
-  background-size: 800px 400px;
-  background-repeat: no-repeat;
+  top: 119px;
+  left: 40px;
+  background-size: 810px 500px;
+  border-radius: 7px;
 }
 
 .container-4{
-  height: 753px;
+  height: 253px;
+}
+
+.content-4{
+position: relative;
+left: 140px;
+bottom: 20px;
+width: 40%;
+}
+
+.footer-img{
+  width: 5%;
+  position: relative;
+  top: 30px;
+  left: 50px;
+
 }
 
 @keyframes fadeIn{
@@ -195,4 +208,16 @@ li:hover {
 
 .hidden{
   opacity: 0;
+}
+
+.footer-tag{
+  float: right;
+}
+
+span{
+  padding: 20px;
+}
+
+.content-4, a{
+  text-decoration: none;
 }
