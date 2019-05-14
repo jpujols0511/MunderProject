@@ -21,9 +21,43 @@ li{
   height: 753px;
 }
 
+.main-input{
+  background-color: #ffffff78;
+  font-size: 22px;
+  font-family: inherit;
+  border-radius: 6px;
+  border: solid 0.5px black;
+  height: 48px;
+  width: 295px;
+  padding-left: 7px;
+}
+
+.main-button{
+    padding: 14.1px;
+    bottom: 2px;
+    position: relative;
+    right: 9px;
+    border-radius: 5px;
+    border: solid 0.5px black;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    background-color: #271010;
+}
+
+.main-header{
+  padding: 35px;
+  font-size: 1.5em;
+}
+
+.main-para{
+  padding-bottom: 33px;
+}
+
 .container-2{
-  background: #66BFBF;
-  height: 700px;
+  background-image: url('http://www.codrer.com/swap/dundermifflin/dunder3.jpg');
+  height: 753px;
+  margin: 0 auto;
 }
 
 .content{
@@ -42,8 +76,8 @@ li{
 .container-3{
 background-image: url('greypaper.png');
 color: black;
-height: 700px;
-background-size:
+height: 753px;
+
 }
 
 .header-3{
@@ -61,6 +95,7 @@ background-size:
   float: left;
   font-size: 20px;
   font-weight: 400;
+  padding: 15px 10px;
 }
 
 .bio-section{
@@ -68,15 +103,28 @@ background-size:
   position: relative;
   display: inline-block;
   width: 50%;
+  background-image: url('background.jpg');
+  margin: 126px;
+  background-size: 800px 500px;
 
 }
 
 .bio-pic{
   float: left;
   width: 26%;
-  padding-right: 26px;
+  padding: 26px;
 }
 
+.bio-header{
+  font-size: 22px;
+  margin: 0;
+  position: relative;
+  left: 90px;
+}
+.staff-header{
+  font-size: 32px;
+  padding: 9px 9px 21px 9px;
+}
 .top-navbar{
   width: 85%;
   background: grey;
@@ -102,7 +150,7 @@ background-size:
 }
 
 .search-bar:focus{
-  background-color: #bad0f4;
+  background-color: #e1e9f7;
   width: 88%;
 }
 
@@ -116,9 +164,35 @@ li:hover {
   text-align: center;
 }
 
-.header-3{
-  font-size: 30px;
-  margin: 50px;
-  margin: 0;
+.about-us{
+  width: 50%;
+  background-image: url('background.jpg');
+  text-align: center;
+  padding: 23px;
+  position: relative;
+  top: 100px;
+  left: 52px;
+  background-size: 800px 400px;
+  background-repeat: no-repeat;
+}
 
+.container-4{
+  height: 753px;
+}
+
+@keyframes fadeIn{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+.show{
+  animation: fadeIn 0.6s;
+}
+
+.hidden{
+  opacity: 0;
 }
