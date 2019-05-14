@@ -18,7 +18,7 @@ li{
   background-image: url('background.jpg');
   background-size: 1920px 1273px;
   margin: 0;
-  height: 700px;
+  height: 753px;
 }
 
 .container-2{
@@ -40,8 +40,10 @@ li{
 }
 
 .container-3{
+background-image: url('greypaper.png');
 color: black;
 height: 700px;
+background-size:
 }
 
 .header-3{
@@ -50,6 +52,29 @@ height: 700px;
 
 .about-section{
   text-align: center;
+
+}
+.bio-para{
+  width: 61%;
+  text-align: left;
+  margin: auto;
+  float: left;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.bio-section{
+  line-height: 2;
+  position: relative;
+  display: inline-block;
+  width: 50%;
+
+}
+
+.bio-pic{
+  float: left;
+  width: 26%;
+  padding-right: 26px;
 }
 
 .top-navbar{
@@ -91,6 +116,9 @@ li:hover {
   text-align: center;
 }
 
-img{
-  width: 10%;
+.header-3{
+  font-size: 30px;
+  margin: 50px;
+  margin: 0;
+
 }
