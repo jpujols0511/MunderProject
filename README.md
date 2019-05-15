@@ -14,3 +14,6 @@
 
 - Making the website more responsive
 
+WIREFRAME LINK:
+
+https://wireframe.cc/yUG37J
