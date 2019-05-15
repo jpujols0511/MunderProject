@@ -1,8 +1,8 @@
 # MunderProject
 
-** Changes to be made **
+*Changes to be made*
 
-Organize files, and put them in respective folders
+Organize CSS and make multiple CSS files for different sections of the website, for organization and debugging purposes
 
 Add comments to the code for better understanding
 
