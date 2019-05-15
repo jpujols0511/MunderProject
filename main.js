@@ -2,8 +2,6 @@ let showContent = document.getElementsByTagName('article')
 
   window.addEventListener('scroll', function() {
 
-  console.log(window.scrollY)
-
 
 let z = window.scrollY
 

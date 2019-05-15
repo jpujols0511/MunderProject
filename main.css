@@ -175,7 +175,9 @@ height: 753px;
 }
 
 .container-4{
-  height: 253px;
+  height: 125px;
+  background-image: url('background.jpg');
+  background-size: 1523px 120px;
 }
 
 .content-4{
@@ -212,12 +214,34 @@ width: 40%;
 
 .footer-tag{
   float: right;
+  margin: 0;
+  font-weight: 600;
 }
 
 span{
   padding: 20px;
+
 }
 
 .content-4, a{
   text-decoration: none;
+  color: black;
+}
+
+li:hover{
+  background-color: #595d63;
+  border-radius: 10px;
+}
+
+.main-button:hover{
+  background-color: #4f5359;
+}
+
+.footer-anchor:hover{
+  text-decoration: underline;
+  padding: 0;
+}
+
+.footer-anchor{
+  color: #595d63;
 }

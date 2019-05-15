@@ -10,15 +10,15 @@
 </head>
 
 <body>
-  <header class='container-1'>
+  <header class='container-1' id='home'>
     <img src="dunder.png" class='top-img'>
     <nav class='top-navbar'>
-      <li>Home</li>
-      <li>About</li>
-      <li>Contact</li>
-      <li>More Products</li>
-      <li>Partners</li>
-      <li>Copyright</li>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">More Products</a></li>
+      <li><a href="#">Partners</a></li>
+      <li><a href="#footer">Copyright</a></li>
       <form class="top-form" action="index.html" method="post">
         <input class='search-bar' type="search" name="" value="" placeholder="Search for news">
       </form>
@@ -36,7 +36,7 @@
   </header>
   <section class='container-2'>
 
-    <article class="content-2 hidden">
+    <article class="content-2 hidden" id='about'>
       <div class="about-us">
 
       <h2>About Us</h2>
@@ -61,18 +61,16 @@ Work in an office? Own a mailbox? Pay with cash? Whoever you are, and whatever y
 
     </article>
   </section>
-  <section class='container-4'>
+  <section class='container-4' id='footer'>
     <img class='footer-img' src="dunder.png" alt="">
   <article class="content-4">
-  <span><a href="#">Our Company</a></span>
-  <span><a href="#">Location</a></span>
-  <span><a href="#">Product</a></span>
-  <span><a href="#">Apply for the Company</a></span>
+  <span><a class='footer-anchor' href="#">Our Company</a></span>
+  <span><a class='footer-anchor' href="#">Location</a></span>
+  <span><a class='footer-anchor' href="#">Product</a></span>
+  <span><a class='footer-anchor' href="#">Apply for the Company</a></span>
 
   </article>
   <p class='footer-tag'>© 2019 Dunder Mifflin Paper Company.</p>
   </section>
 </body>
-<footer></footer>
-
 </html>
